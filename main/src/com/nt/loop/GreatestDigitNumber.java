@@ -1,4 +1,4 @@
-/*19. Find greatest digit in a number
+/*19. Find the greatest digit in a number
 Input: 4721
 Output: 7
 */
