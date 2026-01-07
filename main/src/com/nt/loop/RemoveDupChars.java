@@ -1,5 +1,8 @@
 package com.nt.loop;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class RemoveDupChars {
     static void main(String[] args) {
         String str = "programming";
@@ -43,6 +46,17 @@ public class RemoveDupChars {
             }
         }
         System.out.println(sb3);
-        
+
+        //Approach -4
+        StringBuilder sb4 = new StringBuilder();
+        Set<Character> set = new LinkedHashSet<>();
+        for (int i = 0; i < str.length(); i++) {
+            set.add(str.charAt(i));
+        }
+        for(Character c : set)
+        {
+            sb4.append(c);
+        }
+        System.out.println(sb4);
     }
 }
