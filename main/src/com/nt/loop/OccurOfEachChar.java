@@ -3,7 +3,7 @@ package com.nt.loop;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OccrOfEachChar {
+public class OccurOfEachChar {
     static void main(String[] args) {
         String input = "hello";
         Map<Character, Integer> map = new HashMap<>();
