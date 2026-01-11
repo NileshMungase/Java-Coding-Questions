@@ -2,7 +2,7 @@ package com.nt.string;
 
 public class RemoveDuplicates {
     public static void main(String[] args) {
-        String str = "aabbcc";
+        String str = "Nilesh";
         String result = "";
 
         for (char ch : str.toCharArray()) {

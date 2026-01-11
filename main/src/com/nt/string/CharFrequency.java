@@ -2,7 +2,7 @@ package com.nt.string;
 
 public class CharFrequency {
     public static void main(String[] args) {
-        String str = "banana";
+        String str = "Nilesh";
 
         for (char ch : str.toCharArray()) {
             int count = 0;
